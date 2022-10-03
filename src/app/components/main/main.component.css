@@ -135,7 +135,7 @@ img {
   margin: auto;
 }
 .cartaoFrontHTML {
-  background-image: url("../../../assets/HTML-Logo.jpg");
+  background-image: url(../../../assets/HTML-Logo.jpg);
 }
 .cartaoBackHTML {
   background-color: #f05d27;
@@ -143,7 +143,7 @@ img {
   padding-top: 40%;
 }
 .cartaoFrontCSS {
-  background-image: url("../../../assets/CSS-Logo.jpg");
+  background-image: url(../../../assets/CSS-Logo.jpg);
 }
 .cartaoBackCSS {
   background-color: #2895ce;
@@ -151,7 +151,7 @@ img {
   padding-top: 40%;
 }
 .cartaoFrontJS {
-  background-image: url("../../../assets/JS-Logo.jpg");
+  background-image: url(../../../assets/JS-Logo.jpg);
 }
 .cartaoBackJS {
   background-color: #f7e018;
@@ -159,7 +159,7 @@ img {
   padding-top: 40%;
 }
 .cartaoFrontNode {
-  background-image: url("../../../assets/ND.jpg");
+  background-image: url(../../../assets/ND.jpg);
 }
 .cartaoBackNode {
   background-color: #90c53f;
@@ -167,7 +167,7 @@ img {
   padding-top: 40%;
 }
 .cartaoFrontAngular {
-  background-image: url("../../../assets/Angular-logo.jpg");
+  background-image: url(../../../assets/Angular-logo.jpg);
 }
 .cartaoBackAngular {
   background-color: #c3002f;
@@ -175,7 +175,7 @@ img {
   padding-top: 40%;
 }
 .cartaoFrontJava {
-  background-image: url("../../../assets/Java-logo.jpg");
+  background-image: url(../../../assets/Java-logo.jpg);
 }
 .cartaoBackJava {
   background-color: #ec2025;
@@ -183,7 +183,7 @@ img {
   padding-top: 40%;
 }
 .cartaoFrontGit {
-  background-image: url("../../../assets/Git-logo.jpg");
+  background-image: url(../../../assets/Git-logo.jpg);
 }
 .cartaoBackGit {
   background-color: #f05033;
@@ -191,7 +191,7 @@ img {
   padding-top: 40%;
 }
 .cartaoFrontGH {
-  background-image: url("../../../assets/GH.jpg");
+  background-image: url(../../../assets/GH.jpg);
 }
 .image__overlay--ASSINATURA,
 .image__overlay--AVALIACAO,
@@ -246,42 +246,42 @@ img {
   transition: opacity 0.25s;
 }
 .image__overlay--QR {
-  background-image: url("../../../assets/Projetos/QrCode.png");
+  background-image: url(../../../assets/Projetos/QrCode.png);
   width: 100%;
   height: 100%;
 }
 .image__overlay--COMPRA {
-  background-image: url("../../../assets/Projetos/compra.png");
+  background-image: url(../../../assets/Projetos/compra.png);
   width: 100%;
   height: 100%;
 }
 .image__overlay--NFT {
-  background-image: url("../../../assets/Projetos/nft.png");
+  background-image: url(../../../assets/Projetos/nft.png);
   width: 100%;
   height: 100%;
 }
 .image__overlay--PLANO {
-  background-image: url("../../../assets/Projetos/plano.png");
+  background-image: url(../../../assets/Projetos/plano.png);
   width: 100%;
   height: 100%;
 }
 .image__overlay--ASSINATURA {
-  background-image: url("../../../assets/Projetos/assinatura.png");
+  background-image: url(../../../assets/Projetos/assinatura.png);
   width: 100%;
   height: 100%;
 }
 .image__overlay--DEPOIMENTO {
-  background-image: url("../../../assets/Projetos/depoimentos.png");
+  background-image: url(../../../assets/Projetos/depoimentos.png);
   width: 100%;
   height: 100%;
 }
 .image__overlay--PERFIL {
-  background-image: url("../../../assets/Projetos/perfil.png");
+  background-image: url(../../../assets/Projetos/perfil.png);
   width: 100%;
   height: 100%;
 }
 .image__overlay--AVALIACAO {
-  background-image: url("../../../assets/Projetos/Avaliacao.png");
+  background-image: url(../../../assets/Projetos/Avaliacao.png);
   width: 100%;
   height: 100%;
 }

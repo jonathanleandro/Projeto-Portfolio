@@ -23,6 +23,7 @@
     "@angular/platform-browser-dynamic": "^14.0.0",
     "@angular/router": "^14.0.0",
     "belugs": "^2.0.0",
+    "gzip": "^0.1.0",
     "rxjs": "~7.5.0",
     "smooth-scrollbar": "^8.8.1",
     "tslib": "^2.3.0",
@@ -40,6 +41,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
-    "typescript": "~4.7.2"
+    "typescript": "~4.7.2",
+    "webpack-bundle-analyzer": "^4.6.1"
   }
 }
