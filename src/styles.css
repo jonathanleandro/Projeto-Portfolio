@@ -1,1 +1,48 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap");
+
+:root {
+  --Color1: #020204;
+  --Color2: #204829;
+  --Color3: #22b455;
+  --Color4: #80ce87;
+  --Color5: #92e5a1;
+
+  --Roboto: "Roboto Mono", monospace;
+
+  --color-bg: whitesmoke;
+  --color-text: black;
+}
+
+h1,
+h2 {
+  font-family: var(--Roboto);
+}
+
+[data-theme="dark"] {
+  --color-bg: #204829;
+  --color-text: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 1em;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--Color2);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--Color3);
+  box-shadow: 0px 0px 3px 2px #22b455;
+}

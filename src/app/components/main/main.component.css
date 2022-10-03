@@ -1,0 +1,463 @@
+main {
+  width: 100%;
+}
+
+.Container {
+  height: 100%;
+  margin: auto;
+  background-color: var(--color-bg);
+  position: relative;
+}
+
+h1,
+p,
+.imgText {
+  color: var(--color-text);
+  margin: auto;
+}
+
+section {
+  text-align: center;
+  padding: 0 0em;
+  margin: auto;
+}
+
+#Hello {
+  text-align: left;
+  padding: 0em 7em;
+  padding-top: 23em;
+  padding-bottom: 11em;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+#Who {
+  padding: 0em 7em;
+  padding-bottom: 9em;
+  padding-top: 10em;
+}
+
+#Who p {
+  padding: 0.5em;
+  font-size: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  line-height: 1.5em;
+  font-weight: bold;
+}
+
+#Who h2 {
+  padding: 1em 0;
+}
+
+.WhoText {
+  margin: 0 0;
+}
+
+h2 {
+  font-size: 2em;
+  padding: 0.5em;
+  color: #22b455;
+}
+
+h3 {
+  color: #22b455;
+}
+
+img {
+  height: 9em;
+  padding: 1em;
+}
+
+.imgText {
+  padding: 2em 0;
+}
+
+.image {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#img {
+  padding-bottom: 5em;
+  padding-top: 7em;
+}
+
+#img h2 {
+  padding: 1em 0;
+}
+
+.image p {
+  color: white;
+  font-weight: bold;
+}
+
+.Cartao {
+  transform-style: preserve-3d;
+  transition: all 1s ease;
+  height: 7em;
+  width: 7em;
+  margin: 1em 1em;
+}
+
+.Cartao:hover {
+  transform: rotateY(180deg);
+}
+
+.cartaoFrontHTML {
+  position: absolute;
+  backface-visibility: hidden;
+  background-image: url("../../../assets/HTML-Logo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.cartaoBackHTML {
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  background-color: #f05d27;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding-top: 40%;
+  position: absolute;
+}
+
+.cartaoFrontCSS {
+  position: absolute;
+  backface-visibility: hidden;
+  background-image: url("../../../assets/CSS-Logo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.cartaoBackCSS {
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  background-color: #2895ce;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding-top: 40%;
+  position: absolute;
+}
+
+.cartaoFrontJS {
+  position: absolute;
+  backface-visibility: hidden;
+  background-image: url("../../../assets/JS-Logo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.cartaoBackJS {
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  background-color: #f7e018;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding-top: 40%;
+  position: absolute;
+}
+
+.cartaoFrontNode {
+  position: absolute;
+  backface-visibility: hidden;
+  background-image: url("../../../assets/ND.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.cartaoBackNode {
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  background-color: #90c53f;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding-top: 40%;
+  position: absolute;
+}
+
+.cartaoFrontAngular {
+  position: absolute;
+  backface-visibility: hidden;
+  background-image: url("../../../assets/Angular-logo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.cartaoBackAngular {
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  background-color: #c3002f;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding-top: 40%;
+  position: absolute;
+}
+
+.cartaoFrontJava {
+  position: absolute;
+  backface-visibility: hidden;
+  background-image: url("../../../assets/Java-logo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.cartaoBackJava {
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  background-color: #ec2025;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding-top: 40%;
+  position: absolute;
+}
+
+.cartaoFrontGit {
+  position: absolute;
+  backface-visibility: hidden;
+  background-image: url("../../../assets/Git-logo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.cartaoBackGit {
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  background-color: #f05033;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding-top: 40%;
+  position: absolute;
+}
+
+.cartaoFrontGH {
+  position: absolute;
+  backface-visibility: hidden;
+  background-image: url("../../../assets/GH.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.cartaoBackGH {
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  background-color: #1a1e22;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding-top: 40%;
+  position: absolute;
+}
+
+#Projects h2 {
+  padding: 2em 0;
+}
+
+#Projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-bottom: 5em;
+  padding-top: 5em;
+  margin: auto;
+}
+
+#Projects h2 {
+  padding: 1em;
+}
+
+.Cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: auto;
+}
+
+.Cards a {
+  text-decoration: none;
+}
+
+.Cards p {
+  padding: 1em 0;
+}
+
+.image_card {
+  position: relative;
+  width: 24em;
+  height: 15em;
+  background-color: #80ce87;
+  margin: 1em 1em;
+  box-shadow: 0px 0px 3px 2px #22b455;
+}
+
+.image_card h1 {
+  padding-top: 2em;
+}
+
+.image__img {
+  display: block;
+  width: 100%;
+}
+
+.image__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.image__overlay--blur {
+  backdrop-filter: blur(5px);
+}
+
+.image__overlay--QR {
+  background-image: url("../../../assets/Projetos/QrCode.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.image__overlay--COMPRA {
+  background-image: url("../../../assets/Projetos/compra.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.image__overlay--NFT {
+  background-image: url("../../../assets/Projetos/nft.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.image__overlay--PLANO {
+  background-image: url("../../../assets/Projetos/plano.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.image__overlay--ASSINATURA {
+  background-image: url("../../../assets/Projetos/assinatura.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.image__overlay--DEPOIMENTO {
+  background-image: url("../../../assets/Projetos/depoimentos.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.image__overlay--PERFIL {
+  background-image: url("../../../assets/Projetos/perfil.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.image__overlay--AVALIACAO {
+  background-image: url("../../../assets/Projetos/Avaliacao.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.image__overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+  opacity: 1;
+}
+
+.image__overlay:hover > * {
+  transform: translateY(0);
+}
+
+#Contatos {
+  padding: 1em 4em;
+  padding-bottom: 0em;
+}
+
+.img-zoom {
+  transition: all 0.3s;
+}
+
+.img-zoom:hover {
+  transition: 0.3s;
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 500px) {
+  .Cartao {
+    width: 6em;
+    height: 6em;
+  }
+
+  #img {
+    padding-top: 6em;
+  }
+
+  #img h2 {
+    padding: 0;
+  }
+
+  #Who {
+    padding-top: 5em;
+    padding-bottom: 0em;
+  }
+
+  .image_card {
+    width: 20em;
+  }
+}

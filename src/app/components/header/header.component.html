@@ -1,0 +1,14 @@
+<header class="Container">
+  <div class="tt">
+    <input type="checkbox" name="toggle" id="toggle" (click)="modetoggle()" />
+  </div>
+  <div><h2>Portifólio</h2></div>
+  <div><input type="button" value="<--->" (click)="openMenu()" /></div>
+</header>
+
+<nav id="nav" *ngIf="open">
+  <a href="#QuemSou" id="scroll">Quem Sou</a>
+  <a href="#Habilidades" class="scroll">Habilidades</a>
+  <a href="#Projetos" class="scroll">Projetos</a>
+  <a href="#Contatos" class="scroll">Contatos</a>
+</nav>
