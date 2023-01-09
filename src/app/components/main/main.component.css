@@ -17,7 +17,9 @@ h2 {
 .cartaoFrontHTML,
 .cartaoFrontJS,
 .cartaoFrontJava,
-.cartaoFrontNode {
+.cartaoFrontNode,
+.cartaoFrontRest,
+.cartaoFrontSpring {
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -104,7 +106,9 @@ img {
 .cartaoBackHTML,
 .cartaoBackJS,
 .cartaoBackJava,
-.cartaoBackNode {
+.cartaoBackNode,
+.cartaoBackRest,
+.cartaoBackSpring {
   transform: rotateY(180deg);
 }
 .cartaoBackAngular,
@@ -115,6 +119,8 @@ img {
 .cartaoBackJS,
 .cartaoBackJava,
 .cartaoBackNode,
+.cartaoBackRest,
+.cartaoBackSpring,
 .cartaoFrontAngular,
 .cartaoFrontCSS,
 .cartaoFrontGH,
@@ -122,7 +128,9 @@ img {
 .cartaoFrontHTML,
 .cartaoFrontJS,
 .cartaoFrontJava,
-.cartaoFrontNode {
+.cartaoFrontNode,
+.cartaoFrontRest,
+.cartaoFrontSpring {
   backface-visibility: hidden;
   height: 100%;
   width: 100%;
@@ -193,6 +201,27 @@ img {
 .cartaoFrontGH {
   background-image: url(../../../assets/GH.jpg);
 }
+.cartaoBackGH {
+  background-color: #1a1e22;
+  text-align: center;
+  padding-top: 40%;
+}
+.cartaoFrontRest {
+  background-image: url(../../../assets/REST-logo.jpg);
+}
+.cartaoBackRest {
+  background-color: black;
+  text-align: center;
+  padding-top: 45%;
+}
+.cartaoFrontSpring {
+  background-image: url(../../../assets/Spring-logo.jpg);
+}
+.cartaoBackSpring {
+  background-color: #22b455;
+  text-align: center;
+  padding-top: 35%;
+}
 .image__overlay--ASSINATURA,
 .image__overlay--AVALIACAO,
 .image__overlay--COMPRA,
@@ -203,11 +232,6 @@ img {
 .image__overlay--QR {
   background-repeat: no-repeat;
   background-size: 100% 100%;
-}
-.cartaoBackGH {
-  background-color: #1a1e22;
-  text-align: center;
-  padding-top: 40%;
 }
 #Projects {
   justify-content: center;
