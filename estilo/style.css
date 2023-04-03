@@ -284,6 +284,10 @@ i {
     text-align: center
 }
 
+.p-black{
+    color: var(--cor2);
+}
+
 #project-area .card {
     margin-bottom: 20px;
     border-color: var(--cor4)
