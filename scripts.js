@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    //Filtro
     $('.filter-btn').on('click', function () {
         let type = $(this).attr('id');
         let boxes = $('.hab-box');
@@ -29,6 +30,7 @@ $(document).ready(function () {
             })
         }
     }
+    //Carousel
     let navBtn = $('.nav-item');
     let carouselSection = $('#carousel-main');
     let aboutSection = $('#about-area');
@@ -55,6 +57,7 @@ $(document).ready(function () {
                 .top - 70
         }, 1500)
     });
+    //Switch
     let sun = document.getElementById("sun");
     sun.onclick = function () {
         document

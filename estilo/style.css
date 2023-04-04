@@ -1,4 +1,7 @@
+/* Fonte */
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300;1,500;1,700&display=swap);
+
+/* Configuração Global */
 
 :root {
     --cor1: #db0000;
@@ -25,6 +28,10 @@ p,
 li {
     color: var(--cor2)
 }
+
+/* Header */
+
+/* NavBar */
 
 header,
 .navbar {
@@ -56,6 +63,8 @@ header,
 .nav-item.active {
     border-bottom: 3px solid var(--cor3)
 }
+
+/* Switch */
 
 .button-box {
     width: 40px;
@@ -129,6 +138,8 @@ header,
     width: 0
 }
 
+/* Switch - Modo Escuro */
+
 .dark-mode {
     background-color: var(--cor2);
     border-color: var(--cor3)
@@ -164,9 +175,13 @@ i {
     background-color: var(--cor3)
 }
 
+/* Main */
+
 .container-fluid {
     padding: 0
 }
+
+/* Carousel */
 
 #carousel-main .carousel-inner,
 #carousel-main .carousel-item {
@@ -213,6 +228,8 @@ i {
     color: var(--cor2)
 }
 
+/* Sobre */
+
 #about-area {
     background-color: var(--cor3)
 }
@@ -251,9 +268,13 @@ i {
     margin-right: 15px
 }
 
+/* Habilidades */
+
 .hab-box {
     margin-bottom: 30px
 }
+
+/* Botão Filtro */
 
 #filter-btn-box {
     margin-bottom: 50px;
@@ -288,10 +309,14 @@ i {
     color: var(--cor2);
 }
 
+/* Projetos */
+
 #project-area .card {
     margin-bottom: 20px;
     border-color: var(--cor4)
 }
+
+/* Contato */
 
 #contact-area {
     text-align: center
@@ -352,6 +377,8 @@ i {
     text-decoration: none
 }
 
+/* Footer */
+
 #copy-area {
     background-color: var(--cor4)
 }
@@ -365,6 +392,8 @@ i {
     margin-bottom: 0;
     color: var(--cor3)
 }
+
+/* Media Query */
 
 @media(max-width:768px) {
     .container {
